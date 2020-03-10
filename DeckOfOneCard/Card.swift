@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  Card.swift
 //  DeckOfOneCard
 //
 //  Created by theevo on 3/10/20.
