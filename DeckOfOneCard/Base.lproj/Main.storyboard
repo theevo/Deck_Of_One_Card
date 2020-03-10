@@ -14,7 +14,35 @@
                     <view key="view" contentMode="scaleToFill" id="IZa-P0-4L8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Q1d-Y4-rVE">
+                                <rect key="frame" x="94" y="299" width="226" height="314"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="226" id="amt-xV-QLI"/>
+                                    <constraint firstAttribute="height" constant="314" id="ilb-Mk-90G"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="46r-ri-ncH">
+                                <rect key="frame" x="167.5" y="713" width="79" height="54"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <state key="normal" title="Draw"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(card name)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="njB-h8-7Q1">
+                                <rect key="frame" x="91.5" y="145" width="231" height="54"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="njB-h8-7Q1" firstAttribute="bottom" secondItem="Q1d-Y4-rVE" secondAttribute="top" constant="-100" id="0MP-56-6Jj"/>
+                            <constraint firstItem="46r-ri-ncH" firstAttribute="centerX" secondItem="dAx-36-yHn" secondAttribute="centerX" id="Jcx-tq-1Bz"/>
+                            <constraint firstItem="njB-h8-7Q1" firstAttribute="top" secondItem="dAx-36-yHn" secondAttribute="top" constant="101" id="LhH-nJ-0Ww"/>
+                            <constraint firstItem="46r-ri-ncH" firstAttribute="top" secondItem="Q1d-Y4-rVE" secondAttribute="bottom" constant="100" id="OZG-Ln-cKZ"/>
+                            <constraint firstItem="Q1d-Y4-rVE" firstAttribute="centerX" secondItem="dAx-36-yHn" secondAttribute="centerX" id="Qfr-Ya-YKm"/>
+                            <constraint firstItem="njB-h8-7Q1" firstAttribute="centerX" secondItem="dAx-36-yHn" secondAttribute="centerX" id="m5O-7A-xOB"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="dAx-36-yHn"/>
                     </view>
                 </viewController>
